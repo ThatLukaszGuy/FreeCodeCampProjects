@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-head">
+        <h1 id="title">Survey form project</h1>
+        <p id="description">This survey was made as part of a project to earn a certification</p>
+        
+      </div>
+     <div class="survey"> 
+       <form id="survey-form">
+          <label for="name" id="name-label">YOUR NAME:</label>
+            <input type="text" id="name" placeholder="name" required #name-label>
+ 
+          <label for="email" id="email-label">YOUR EMAIL:</label> 
+            <input type="email" id="email" placeholder="email" required #email-label>
+ 
+          <label for="number" id="number-label">YOUR AGE:</label>
+            <input type="number" id="number" placeholder="age" required min="1" max="99" #number-label>
+          <label for="dropdown" id="dropdown-label">CHOOSE YOUR FAV SUBJECT</label>
+          <select name="subject" id="dropdown" required>
+            <option value="">---Choose an option---</option>
+            <option value="english">English</option>
+            <option value="math">Math</option>
+            <option value="science">Science</option>
+            <option value="pe">PE</option>
+          </select>
+          
+         <p id="select-gender">Please select gender:</p>
+         
+         <label for="male" id="gender-label">
+            <input id="male" 
+                   type="radio" 
+                   name="gender" 
+                   value="male">Male</label>
+         <label for="female" id="gender-label">
+           <input id="female" 
+                  type="radio" 
+                  name="gender" 
+                  value="female">Female</label>
+         <label for="other" id="gender-label">
+           <input id="other" 
+                  type="radio" 
+                  name="gender" 
+                  value="other">Other</label>
+ 
+          <p id="select-hobby" >Select fav hobby/s</p>
+          <label for="sports" id="hobby-label">
+            <input id="sports" 
+                   type="checkbox" 
+                   name="hobbys" 
+                   value="sports">Sports</label>
+          <label for="gaming" id="hobby-label">
+            <input id="gaming" 
+                   type="checkbox" 
+                   name="hobbys" 
+                   value="gaming">Gaming</label>
+          <label for="coding" id="hobby-label">
+            <input id="coding" 
+                   type="checkbox" 
+                   name="hobbys" 
+                   value="coding">Coding</label>
+ 
+          <label for="textarea" id="textarea-label">Please give additonal feedback if needed:</label>
+          <textarea id="textarea" name="textarea" rows="5" cols="50">
+     
+          </textarea>
+          <button type="submit" id="submit" href="#">Submit</button>
+        </div>
+ 
+          
+       
+        
+      
+     
+     
+     
+      </form>
+     </div>
+ 
+   
+</body>
+</html>

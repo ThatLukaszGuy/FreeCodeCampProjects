@@ -1,0 +1,91 @@
+/*Page head*/
+*{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-image: url(https://images.unsplash.com/photo-1515868769-ad822a0c67e9?ixid=MnwxbMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    height: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  .page-head {
+    color:#F64C72;
+    text-align:center;
+    margin-bottom:-100px;
+  }
+  
+  /*form*/
+  
+  .survey label {
+    display:block;
+    margin-bottom:10px;
+  }
+  .survey {
+    
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width:500px;
+  }
+  
+  form {
+    box-shadow: 2px 5px 10px;
+    padding: 15px;
+    border:10px solid #242582;
+    border-radius:20px;
+    place-items:center;
+    
+  }
+  
+  #name,
+  #number,
+  #email {
+    padding-bottom:10px;
+  }
+  
+  
+  #name-label,
+  #email-label,
+  #number-label,
+  #dropdown-label {
+    font-weight:800;
+    padding-top:20px;
+    color:white;
+  }
+  
+  
+  #select-gender,
+  #select-hobby,
+  #textarea-label {
+    font-weight:800;
+    color:white;
+  }
+  
+  
+  /*the submit button*/
+  
+  #submit {
+    font-size:20px;
+    display:block;
+    width:100%;
+    border-radius:3px;
+    color:#F64C72;
+    background-color:#242582;
+    font-size:30px;
+    font-weight:600;
+    border-radius:20px;
+  }
+  
+  #gender-label {
+    color:white;
+  }
+  #hobby-label {
+    color:white;
+  }
+  
+  
