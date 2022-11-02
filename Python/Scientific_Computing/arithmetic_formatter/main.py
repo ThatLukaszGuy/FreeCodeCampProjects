@@ -1,7 +1,7 @@
 
 
 # main function
-def arithmetic_arranger(list, display_results=True):
+def arithmetic_arranger(list, display_results=False):
 
     if len(list) > 5: return "Error: Too many problems."
 
