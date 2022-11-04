@@ -6,7 +6,7 @@ Just all projects needed to pass. Either take the code from here or use the repl
 ## Projects
 - Mean Variance Standart Deviation Calculator , [Repl Link](https://replit.com/@ThatLukaszGuy/boilerplate-mean-variance-standard-deviation-calculator#mean_var_std.py)
 
-
+- Demographic Data Analyzer [Repl Link](https://replit.com/@ThatLukaszGuy/boilerplate-demographic-data-analyzer#demographic_data_analyzer.py)
 
 ## Note
 
