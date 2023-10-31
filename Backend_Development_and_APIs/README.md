@@ -2,6 +2,9 @@
 # Backend API's
 
 It's just all the projects needed to pass the automated checks. They're not pretty or well designed in the slightest, they just exist to pass the tests. You can either use the replit links or look at files here, both are identical. However there is a prettier/improved version that I made (those however dont fully meet the test) on: [Nodemagic](https://nodemagic.herokuapp.com/fcc)
+(if they're still valid). Due to changes between node version and their packages it's possible that some solution become outdated after a while.
+
+
 
 ## Projects
 - Timestamp Microservice [Repl Link](https://replit.com/@ThatLukaszGuy/project-timestamp#.replit)
